@@ -11,6 +11,7 @@ public class Program {
 		Attendant attendant = new Attendant();
 		HamburgerBuilder bovineHamburger = new BovineHamburger();
 		
+		bovineHamburger.createNewHamburger();
 		attendant.setHamburgerBuilder(bovineHamburger);
 		attendant.constructHamburger();
 		
